@@ -9,8 +9,8 @@ function App() {
   return (
     <>
     <Switch>
-    <Route path="/" component={EnterPage} exact />
-    <Route path="/main" component={MainPage} />
+    <Route path={`${process.env.PUBLIC_URL}/`} component={EnterPage} exact />
+    <Route path={`${process.env.PUBLIC_URL}/main`} component={MainPage} />
     </Switch>
     </>
   );
