@@ -10,6 +10,20 @@
     height: 250px;
     width: 250px;
 }
+.buttonWrapper{
+    width: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    z-index: 100;
+    border-radius: 10px;
+    position: fixed;
+    top: 450px;
+    right: 50px;
+}
 
 .bodyHeading{
     text-align: center;
