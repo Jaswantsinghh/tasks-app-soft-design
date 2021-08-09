@@ -1,9 +1,17 @@
 import './App.scss';
 import EnterPage from './modules/enterPage';
+import MainPage from './modules/mainPage';
+import {
+  Switch,
+  Route
+} from "react-router-dom";
 function App() {
   return (
     <>
-    <EnterPage />
+    <Switch>
+    <Route path="/" component={EnterPage} exact />
+    <Route path="/main" component={MainPage} />
+    </Switch>
     </>
   );
 }

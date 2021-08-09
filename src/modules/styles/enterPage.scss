@@ -10,6 +10,12 @@
     height: 250px;
     width: 250px;
 }
+.navWrapper{
+    background-color: gray;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+}
 .buttonWrapper{
     width: 50px;
     padding: 15px;
@@ -23,6 +29,7 @@
     position: fixed;
     top: 60%;
     right: 50px;
+    cursor: pointer;
 }
 
 .bodyHeading{
