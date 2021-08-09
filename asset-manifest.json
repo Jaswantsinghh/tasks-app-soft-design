@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/tasks-app-soft-design/static/css/main.8ca329b7.chunk.css",
-    "main.js": "/tasks-app-soft-design/static/js/main.d6309a45.chunk.js",
-    "main.js.map": "/tasks-app-soft-design/static/js/main.d6309a45.chunk.js.map",
+    "main.css": "/tasks-app-soft-design/static/css/main.8c257a19.chunk.css",
+    "main.js": "/tasks-app-soft-design/static/js/main.6fe8f370.chunk.js",
+    "main.js.map": "/tasks-app-soft-design/static/js/main.6fe8f370.chunk.js.map",
     "runtime-main.js": "/tasks-app-soft-design/static/js/runtime-main.d7f9b2c4.js",
     "runtime-main.js.map": "/tasks-app-soft-design/static/js/runtime-main.d7f9b2c4.js.map",
     "static/js/2.c3b4b7b1.chunk.js": "/tasks-app-soft-design/static/js/2.c3b4b7b1.chunk.js",
     "static/js/2.c3b4b7b1.chunk.js.map": "/tasks-app-soft-design/static/js/2.c3b4b7b1.chunk.js.map",
     "index.html": "/tasks-app-soft-design/index.html",
-    "static/css/main.8ca329b7.chunk.css.map": "/tasks-app-soft-design/static/css/main.8ca329b7.chunk.css.map",
+    "static/css/main.8c257a19.chunk.css.map": "/tasks-app-soft-design/static/css/main.8c257a19.chunk.css.map",
     "static/js/2.c3b4b7b1.chunk.js.LICENSE.txt": "/tasks-app-soft-design/static/js/2.c3b4b7b1.chunk.js.LICENSE.txt",
     "static/media/illustration.b4ca08ed.png": "/tasks-app-soft-design/static/media/illustration.b4ca08ed.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d7f9b2c4.js",
     "static/js/2.c3b4b7b1.chunk.js",
-    "static/css/main.8ca329b7.chunk.css",
-    "static/js/main.d6309a45.chunk.js"
+    "static/css/main.8c257a19.chunk.css",
+    "static/js/main.6fe8f370.chunk.js"
   ]
 }
