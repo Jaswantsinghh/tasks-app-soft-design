@@ -7,6 +7,10 @@ export default function MainPage()
         <h1>Done</h1>
         <div className="navWrapper">
 <p>NavBar</p>
+<p>NavBar</p>
+<p>NavBar</p>
+<p>NavBar</p>
+<p>NavBar</p>
         </div>
         </>
     );
