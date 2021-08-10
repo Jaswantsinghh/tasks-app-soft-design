@@ -9,6 +9,7 @@ export default function MainPage()
 {
     return(
         <>
+        <div className="main">
         <div className="mainContainer">
             <h1 className="mainHeader">My tasks</h1>
             <div className="mainDates">
@@ -25,9 +26,10 @@ export default function MainPage()
         <div className="navWrapper">
 <a className="anc"><img className="navIcons" src={home} alt="home"></img></a>
 <a className="anc"><img className="navIcons" src={hamburger} alt="home"></img></a>
-<a className="anc"><img className="navIcons" src={plus} alt="home"></img></a>
+<a className="ancMain"><img className="navIcons" src={plus} alt="home"></img></a>
 <a className="anc"><img className="navIcons" src={setting} alt="home"></img></a>
 <a className="anc"><img className="navIcons" src={user} alt="home"></img></a>
+        </div>
         </div>
         </div>
         
