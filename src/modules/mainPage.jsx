@@ -1,5 +1,10 @@
 import React from 'react';
 import '../index.scss';
+import home from '../img/icons/home-page.png';
+import hamburger from '../img/icons/square.png';
+import plus from '../img/icons/plus.png';
+import setting from '../img/icons/settings.png';
+import user from '../img/icons/user.png';
 export default function MainPage()
 {
     return(
@@ -16,12 +21,14 @@ export default function MainPage()
               <span className="date">SUN 18</span>
             </div>
             </div>
+            <div className="navBottom">
         <div className="navWrapper">
-<p>NavBar</p>
-<p>NavBar</p>
-<p>NavBar</p>
-<p>NavBar</p>
-<p>NavBar</p>
+<a className="anc"><img className="navIcons" src={home} alt="home"></img></a>
+<a className="anc"><img className="navIcons" src={hamburger} alt="home"></img></a>
+<a className="anc"><img className="navIcons" src={plus} alt="home"></img></a>
+<a className="anc"><img className="navIcons" src={setting} alt="home"></img></a>
+<a className="anc"><img className="navIcons" src={user} alt="home"></img></a>
+        </div>
         </div>
         
         </>

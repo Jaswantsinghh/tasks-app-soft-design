@@ -6,6 +6,14 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navButtom{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 .mainContainer{
     height: 100vh;
@@ -25,7 +33,17 @@
     padding: 5px;
     text-align: center;
 }
+.navIcons{
+    width: 32px;
+    height: 32px;
+    color: white;
+}
+
 .dateSelected{
+    color: white;
+}
+
+.anc{
     color: white;
 }
 
