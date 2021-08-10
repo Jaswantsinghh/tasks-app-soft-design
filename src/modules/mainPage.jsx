@@ -15,6 +15,7 @@ export default function MainPage()
               <span className="date">SAT 17</span>
               <span className="date">SUN 18</span>
             </div>
+            </div>
         <div className="navWrapper">
 <p>NavBar</p>
 <p>NavBar</p>
@@ -22,7 +23,7 @@ export default function MainPage()
 <p>NavBar</p>
 <p>NavBar</p>
         </div>
-        </div>
+        
         </>
     );
 }
