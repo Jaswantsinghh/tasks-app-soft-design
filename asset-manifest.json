@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tasks-app-soft-design/static/css/main.8f8cc2c5.chunk.css",
-    "main.js": "/tasks-app-soft-design/static/js/main.3e212a9b.chunk.js",
-    "main.js.map": "/tasks-app-soft-design/static/js/main.3e212a9b.chunk.js.map",
+    "main.js": "/tasks-app-soft-design/static/js/main.2458f076.chunk.js",
+    "main.js.map": "/tasks-app-soft-design/static/js/main.2458f076.chunk.js.map",
     "runtime-main.js": "/tasks-app-soft-design/static/js/runtime-main.d7f9b2c4.js",
     "runtime-main.js.map": "/tasks-app-soft-design/static/js/runtime-main.d7f9b2c4.js.map",
     "static/js/2.ed3d3978.chunk.js": "/tasks-app-soft-design/static/js/2.ed3d3978.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.d7f9b2c4.js",
     "static/js/2.ed3d3978.chunk.js",
     "static/css/main.8f8cc2c5.chunk.css",
-    "static/js/main.3e212a9b.chunk.js"
+    "static/js/main.2458f076.chunk.js"
   ]
 }
