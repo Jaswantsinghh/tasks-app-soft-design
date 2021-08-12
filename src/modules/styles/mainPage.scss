@@ -1,5 +1,5 @@
 .navWrapper{
-    background-color: gray;
+    background-color: #35333d;
     color: white;
     position: fixed;
     bottom: 0%;
@@ -13,20 +13,20 @@
     position: absolute;
     left: 50%;
     bottom: 50%;
-    background-color: palevioletred;
+    background-color: #ff9e9b;
     padding: 10px;
     border-radius: 5px;
 }
 
 .cardHolder{
-    background-color: peachpuff;
+    background-color: #fce3e2;
     height: 75vh;
     border-top-left-radius:25px ;
     border-top-right-radius:25px ;
     overflow-y: scroll;
 }
 .mainContainer{
-    background-color: palevioletred;
+    background-color: #ff9e9b;
     padding-top: 35px;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-background-color: palevioletred;
+background-color: #ff9e9b;
 }
 .mainDates{
     display: flex;
@@ -52,6 +52,9 @@ background-color: palevioletred;
     width: 32px;
     height: 32px;
     color: white;
+}
+.cards{
+    background-color: white;
 }
 
 .dateSelected{

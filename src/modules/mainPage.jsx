@@ -10,7 +10,7 @@ function Card(props)
 {
     return(
         <>
-        <div>
+        <div className="cards">
             <h1>{props.title}</h1>
             <p>{props.one}</p>
             <p>{props.two}</p>
