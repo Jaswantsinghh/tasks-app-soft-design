@@ -10,35 +10,48 @@
     padding-bottom: 20px;
     height: 28px;
 }
-.ancMain{
+.ancMain, .ancDark{
     position: relative;
     top: -30px;
     background-color: #ff9e9b;
     padding: 15px 18px 15px 18px;
     border-radius: 15px;
     height: 28px;
+    box-shadow: 0px 10px 9px 1px #000000ab;
 }
 
-.cardHolder{
+.ancDark{
+    background-color: #5e6068;
+}
+.cardHolder, .cardHolderDark{
     background-color: #fce3e2;
     height: 75vh;
-    border-top-left-radius:25px ;
-    border-top-right-radius:25px ;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
     overflow-y: scroll;
     padding: 10px;
 }
-.mainContainer{
+.cardHolderDark{
+    background-color: #5e6068;
+}
+.mainContainer, .mainContDark{
     background-color: #ff9e9b;
     padding-top: 35px;
     display: flex;
     flex-direction: column;
 }
-.main{
+.mainContDark{
+    background-color: #35333d;
+}
+.main, .mainDark{
 height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 background-color: #ff9e9b;
+}
+.mainDark{
+background-color: #35333d;
 }
 .mainDates{
     display: flex;
@@ -56,23 +69,31 @@ background-color: #ff9e9b;
     width: 28px;
     height: 28px;
 }
-.cardFlex{
+.cardFlex, .cardDark{
     background-color: white;
     border-radius: 17px;
     padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 5px 5px 11px 0px #88888885;
+}
+.cardDark{
+    background: #35333d;
 }
 .delIcon{
     width: 16px;
     height: 16px;
 }
-.delete{
+.delete, .delDark{
     background: #ff9e9b;
     padding: 7px 10px 7px 10px;
     border-radius: 7px;
     margin-top: 50px;
+    box-shadow: 3px 4px 11px 0px #88888885;
+}
+.delDark{
+    background-color: #5e6068;
 }
 .penIcon{
     width: 15px;
@@ -84,10 +105,13 @@ flex-direction: column;
 justify-content: space-between;
 align-items: center;
 }
-.titleCard{
+.titleCard, .titleDark{
     margin: 0;
     font-size: 22px;
     color: #35333d;
+}
+.titleDark{
+    color: white;
 }
 .header{
     display: flex;
@@ -127,11 +151,14 @@ align-items: center;
     font-weight: 500;
     padding: 5px;
 }
-.cardTask{
+.cardTask, .taskDark{
     margin: 0;
     color: rgba(128, 128, 128, 0.616);
     font-size: 14px;
     font-weight: 500;
+}
+.taskDark{
+    color: white;
 }
 .dateSelected{
     color: white;
