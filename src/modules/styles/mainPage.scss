@@ -8,14 +8,15 @@
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 28px;
 }
 .ancMain{
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
+    position: relative;
+    top: -30px;
     background-color: #ff9e9b;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px 18px 15px 18px;
+    border-radius: 15px;
+    height: 28px;
 }
 
 .cardHolder{
@@ -24,6 +25,7 @@
     border-top-left-radius:25px ;
     border-top-right-radius:25px ;
     overflow-y: scroll;
+    padding: 10px;
 }
 .mainContainer{
     background-color: #ff9e9b;
@@ -41,32 +43,106 @@ background-color: #ff9e9b;
 .mainDates{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 .date, .dateSelected{
     color: rgba(255, 255, 255, 0.596);
-    font-size: medium;
+    font-size: 14px;
     padding: 5px;
     text-align: center;
+    font-weight: 600;
 }
 .navIcons{
-    width: 32px;
-    height: 32px;
-    color: white;
+    width: 28px;
+    height: 28px;
 }
-.cards{
+.cardFlex{
     background-color: white;
+    border-radius: 17px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
-
+.delIcon{
+    width: 16px;
+    height: 16px;
+}
+.delete{
+    background: #ff9e9b;
+    padding: 7px 10px 7px 10px;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+.penIcon{
+    width: 15px;
+    height: 15px;
+}
+.actionButtons{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.titleCard{
+    margin: 0;
+    font-size: 22px;
+    color: #35333d;
+}
+.header{
+    display: flex;
+    align-items: baseline;
+}
+.red{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left:5px ;
+}
+.blue{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(44, 130, 230);
+    margin-left:5px ;
+}
+.yellow{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left:5px ;
+}
+.green{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(8, 201, 8);
+    margin:5px ;
+}
+.titleTime{
+    color: lightgray;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 5px;
+}
+.cardTask{
+    margin: 0;
+    color: rgba(128, 128, 128, 0.616);
+    font-size: 14px;
+    font-weight: 500;
+}
 .dateSelected{
     color: white;
 }
-
 .anc{
-    color: white;
+    height: 28px;
 }
 
 .mainHeader{
-    padding: 0;
+    padding: 15px;
     margin: 0;
     color: white;
+    font-size: 42px;
 }
