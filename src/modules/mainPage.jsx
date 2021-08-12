@@ -5,6 +5,21 @@ import hamburger from '../img/icons/square.png';
 import plus from '../img/icons/plus.png';
 import setting from '../img/icons/settings.png';
 import user from '../img/icons/user.png';
+
+function Card(props)
+{
+    return(
+        <>
+        <div>
+            <h1>{props.title}</h1>
+            <p>{props.one}</p>
+            <p>{props.two}</p>
+            <p>{props.three}</p>
+        </div>
+        </>
+    );
+}
+
 export default function MainPage()
 {
     return(
@@ -21,15 +36,20 @@ export default function MainPage()
               <span className="date">SAT 17</span>
               <span className="date">SUN 18</span>
             </div>
+            <div className="cardHolder">
+<Card title="Work" one="Respond emails" two="Call Angela" three="Meeting with clients" />
+<Card title="Work" one="Respond emails" two="Call Angela" three="Meeting with clients" />
+<Card title="Work" one="Respond emails" two="Call Angela" three="Meeting with clients" />
+<Card title="Work" one="Respond emails" two="Call Angela" three="Meeting with clients" />
+<Card title="Work" one="Respond emails" two="Call Angela" three="Meeting with clients" />
             </div>
-            <div className="navBottom">
+        </div>
         <div className="navWrapper">
 <a className="anc"><img className="navIcons" src={home} alt="home"></img></a>
 <a className="anc"><img className="navIcons" src={hamburger} alt="home"></img></a>
 <a className="ancMain"><img className="navIcons" src={plus} alt="home"></img></a>
 <a className="anc"><img className="navIcons" src={setting} alt="home"></img></a>
 <a className="anc"><img className="navIcons" src={user} alt="home"></img></a>
-        </div>
         </div>
         </div>
         
